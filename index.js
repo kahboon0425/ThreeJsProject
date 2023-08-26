@@ -249,8 +249,8 @@ function init() {
     const coneHeight = 480;
 
     for ( let i = 0; i < objects.length; i ++ ) {
-        const theta = i * 4 + Math.PI;
-        const y = - ( i * 12 ) + 450;
+        const theta = i * 2 + Math.PI;
+        const y = - ( i * 10 ) + 450;
 
         const object = new THREE.Object3D();
         
